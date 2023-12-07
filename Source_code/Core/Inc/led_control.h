@@ -24,5 +24,6 @@ void onTFYellow2();
 
 void onPEDRed();
 void onPEDGreen();
+void toggleGreen();
 
 #endif /* INC_LED_CONTROL_H_ */

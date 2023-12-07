@@ -69,3 +69,7 @@ void onPEDGreen(){
 	HAL_GPIO_WritePin(PED_LED_1_GPIO_Port, PED_LED_1_Pin, RESET);
 	HAL_GPIO_WritePin(PED_LED_2_GPIO_Port, PED_LED_2_Pin, SET);
 }
+
+void toggleGreen(){
+	HAL_GPIO_TogglePin(PED_LED_2_GPIO_Port, PED_LED_2_Pin);
+}

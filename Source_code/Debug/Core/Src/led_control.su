@@ -1,0 +1,12 @@
+led_control.c:11:6:offAllLed	8	static
+led_control.c:22:6:offTFLed	8	static
+led_control.c:30:6:offPEDLed	8	static
+led_control.c:36:6:onTFRed1	8	static
+led_control.c:40:6:onTFGreen1	8	static
+led_control.c:44:6:onTFYellow1	8	static
+led_control.c:50:6:onTFRed2	8	static
+led_control.c:54:6:onTFGreen2	8	static
+led_control.c:58:6:onTFYellow2	8	static
+led_control.c:64:6:onPEDRed	8	static
+led_control.c:68:6:onPEDGreen	8	static
+led_control.c:73:6:toggleGreen	8	static
