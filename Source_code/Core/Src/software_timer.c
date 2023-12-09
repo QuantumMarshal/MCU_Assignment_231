@@ -25,6 +25,8 @@ int timer5_flag=0;
 int timer6_counter=0;
 int timer6_flag=0;
 
+int timer7_counter=0;
+int timer7_flag=0;
 
 void setTimer1(int duration){
 	timer1_counter=duration;
@@ -54,6 +56,11 @@ void setTimer5(int duration){
 void setTimer6(int duration){
 	timer6_counter=duration;
 	timer6_flag=0;
+}
+
+void setTimer7(int duration){
+	timer7_counter=duration;
+	timer7_flag=0;
 }
 
 void timerRun(){
@@ -91,6 +98,12 @@ void timerRun(){
 		timer6_counter--;
 		if (timer6_counter <= 0){
 			timer6_flag=1;
+		}
+	}
+	if (timer7_counter > 0){
+		timer7_counter--;
+		if (timer7_counter <= 0){
+			timer7_flag=1;
 		}
 	}
 }
